@@ -1,0 +1,56 @@
+.productsListContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 3rem;
+    padding: 5rem;
+    /* border: 1px solid red; */
+    width: 80%
+}
+
+.productCard{
+    /* border: 1px solid #ccc; */
+    padding: 0.5rem;
+    /* border-radius: 4px; */
+    background-color: #fff;
+}
+
+.productCard img {
+    height: 250px;
+    width:100%;
+    object-fit: cover;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+}
+
+.discount {
+    display: inline-block;
+    color: red;
+    padding: 8px;
+    border: 1px solid rgb(182, 66, 66);
+    border-radius: 1.5rem;
+    margin: 0;
+}
+
+.discount_price {
+    font-size: 18px;
+}
+
+.heroSection {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/003/810/922/small/horizontal-banner-for-black-friday-sale-black-balls-with-shiny-ribbons-golden-letters-vector.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    width: 80%;
+    height: 16rem;
+}

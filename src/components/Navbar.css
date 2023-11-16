@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #131921;
+    color: white;
+}
+
+.login {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
+}
+
+.nav_right {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    cursor: pointer;
+}
