@@ -1,6 +1,7 @@
 {
   "name": "final_project",
   "version": "0.1.0",
+  "homepage": "https://shanshan-sg5507.github.io/final_project/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
